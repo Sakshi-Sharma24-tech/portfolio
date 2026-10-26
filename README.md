@@ -3,7 +3,7 @@
 A personalized, responsive portfolio web application developed for college Internal Assessment, featuring interactive project search and filtering, dark mode switching, and an integrated AI chatbot powered by the Groq API.
 
 ## Live Deployment
-* **Live Website URL:** https://sakshi-sharma-portfolio.vercel.app *(or your active Vercel deployment link)*
+* **Live Website URL:** https://portfolio-1-sakshi-d3bc.vercel.app
 * **Author:** Sakshi Sharma (B.Tech Computer Science & Engineering, 2nd Year, JECRC University)
 * **Role:** Aspiring Data Analyst
 
