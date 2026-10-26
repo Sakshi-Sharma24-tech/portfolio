@@ -27,7 +27,7 @@ Key student information:
   3. Bug Fixing Using Cursor AI: Applied Red-Fix-Green TDD methodology with 9 unit tests to fix average calculation, passing boundary (>= 40), and grade ordering.
   4. Interactive Quiz Application: Lecture 10 interactive quiz app with dynamic DOM question rendering and score tracking.
   5. Book Reading List Application: Lecture 11 web app built with Bolt AI and deployed to Vercel with reading status filters, duplicate prevention, and 60-character title limit.
-- GitHub: https://github.com/sakshisharma-cse
+- GitHub: https://github.com/Sakshi-Sharma24-tech
 - Contact: sakshisharma.cse@gmail.com, Jaipur, Rajasthan, India.
 
 Instructions:
