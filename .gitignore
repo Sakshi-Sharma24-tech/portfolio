@@ -1,0 +1,15 @@
+# Lecture 15: Secret API key file
+config.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakshi Sharma — Personal Portfolio & Data Analyst</title>
+    <meta name="description" content="Personal portfolio of Sakshi Sharma, 2nd-year B.Tech CSE student at JECRC University and aspiring Data Analyst. Showcasing Python, Web Development, and AI projects." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="chatbot.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+      <div class="brand">
+        <a href="#home" class="brand-link">
+          <p class="brand-mark">Sakshi Sharma</p>
+          <p class="brand-role">Aspiring Data Analyst</p>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <!-- Light / Dark Mode Toggle Button -->
+        <button
+          id="themeToggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch between light and dark mode"
+        >
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-text">Dark Mode</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation menu"
+        >
+          Menu
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#portfolio-chatbot">AI Chatbot</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero / Home Section -->
+      <section id="home" class="hero-section" aria-labelledby="hero-heading">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="greeting-badge">Welcome to my portfolio</span>
+            <h1 id="hero-heading">Hi, I'm Sakshi Sharma</h1>
+            <p class="hero-subtitle">
+              B.Tech Computer Science Student • Aspiring Data Analyst
+            </p>
+            <p class="lede">
+              Passionate about analyzing data, discovering actionable insights, and turning raw data into meaningful decisions through Python, SQL, and modern analytical tools.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#portfolio-chatbot" class="btn btn-secondary">Ask My AI Chatbot</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <div class="avatar-ring">
+              <img
+                src="profile.jpg"
+                alt="Photograph of Sakshi Sharma"
+                class="profile-img"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80';"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" aria-labelledby="about-heading">
+        <div class="section-header">
+          <span class="section-tag">Background</span>
+          <h2 id="about-heading">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a 2nd year <strong>B.Tech Computer Science and Engineering</strong> student at <strong>JECRC University</strong> with a dedicated focus on data analytics, software development, and AI-assisted workflows.
+            </p>
+            <p>
+              My analytical journey is driven by a passion for solving real-world problems. Whether through data transformation in Python, structured relational queries in SQL, or building clean, user-friendly interactive web apps, I strive to continuously learn and optimize digital solutions.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">🎓</div>
+              <div class="highlight-details">
+                <h3>Education</h3>
+                <p>B.Tech in Computer Science & Engineering</p>
+                <span class="highlight-sub">JECRC University • 2nd Year</span>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">📊</div>
+              <div class="highlight-details">
+                <h3>Career Aspiration</h3>
+                <p>Data Analyst & Business Intelligence Specialist</p>
+                <span class="highlight-sub">Focus: Python, Excel, SQL, Insights</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" aria-labelledby="skills-heading">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 id="skills-heading">Technical Skills</h2>
+        </div>
+        <div class="skills-categories">
+          <!-- Category 1: Languages -->
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+              <li><span class="skill-dot"></span>Python</li>
+              <li><span class="skill-dot"></span>SQL</li>
+              <li><span class="skill-dot"></span>C++</li>
+              <li><span class="skill-dot"></span>JavaScript (ES6+)</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Tools & Analytics -->
+          <div class="skill-category">
+            <h3>Analytics & Productivity</h3>
+            <ul class="skills-list">
+              <li><span class="skill-dot"></span>Microsoft Excel (Formulas, Pivot)</li>
+              <li><span class="skill-dot"></span>Cursor AI (Prompt & Debugging)</li>
+              <li><span class="skill-dot"></span>Git & GitHub (Version Control)</li>
+              <li><span class="skill-dot"></span>Unit Testing (TDD)</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Web & Deployment -->
+          <div class="skill-category">
+            <h3>Web & Cloud</h3>
+            <ul class="skills-list">
+              <li><span class="skill-dot"></span>HTML5 & Semantic Web</li>
+              <li><span class="skill-dot"></span>CSS3 (Flexbox, Grid, Dark Mode)</li>
+              <li><span class="skill-dot"></span>RESTful APIs & Groq API</li>
+              <li><span class="skill-dot"></span>Vercel Cloud Deployment</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 id="projects-heading">My Projects</h2>
+          <p class="section-desc">
+            Explore past academic and practical projects developed during coursework, including algorithm collections, AI refactoring, automated testing, and web applications.
+          </p>
+        </div>
+
+        <!-- Interactive Feature: Search and Filter Bar -->
+        <div class="projects-controls">
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input
+              type="text"
+              id="projectSearch"
+              placeholder="Search projects by title or technology (e.g. Python, Quiz, Book)..."
+              aria-label="Search projects by name or technology"
+            />
+            <button id="clearSearch" type="button" class="clear-search-btn" aria-label="Clear search">✕</button>
+          </div>
+
+          <div class="filter-chips" role="group" aria-label="Filter projects by technology category">
+            <button type="button" class="filter-chip active" data-filter="all">All</button>
+            <button type="button" class="filter-chip" data-filter="python">Python</button>
+            <button type="button" class="filter-chip" data-filter="web">Web Apps</button>
+            <button type="button" class="filter-chip" data-filter="ai">AI & Refactoring</button>
+            <button type="button" class="filter-chip" data-filter="quiz">Quiz</button>
+            <button type="button" class="filter-chip" data-filter="book">Book</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Results Counter -->
+        <p id="searchCount" class="search-count" aria-live="polite">Showing all 5 projects</p>
+
+        <!-- Project Cards Container -->
+        <div id="projectsGrid" class="projects-grid">
+          <!-- Project 1: Python Programs Collection -->
+          <article class="project-card" data-title="Python Programs Collection" data-tags="python algorithms data-structures factorial fibonacci dictionary">
+            <div class="project-card-header">
+              <span class="project-badge">Coursework</span>
+              <h3 class="project-title">Python Programs Collection</h3>
+            </div>
+            <p class="project-description">
+              A comprehensive repository of foundational Python programs implementing recursive and iterative Factorial calculation, Fibonacci series generation, and structured tuples-to-dictionary data conversions with well-documented README instructions.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">Data Structures</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sakshisharma-cse/Python-programs-collection" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Repository</span> ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Messy Python Code Improvement -->
+          <article class="project-card" data-title="Messy Python Code Improvement" data-tags="python ai cursor-ai refactoring clean-code standards">
+            <div class="project-card-header">
+              <span class="project-badge">Session 6</span>
+              <h3 class="project-title">Messy Python Code Improvement</h3>
+            </div>
+            <p class="project-description">
+              Systematic refactoring of unformatted legacy Python code using Cursor AI. Implemented custom Cursor rules (<code>.cursor/rules/python-standards.mdc</code>) for descriptive variable names, docstrings, and modular functions while ensuring 100% identical printed console output.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Cursor AI</span>
+              <span class="tag">Refactoring</span>
+              <span class="tag">Clean Code</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sakshisharma-cse/messy-python-refactor" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Repository</span> ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Bug Fixing Using Cursor AI -->
+          <article class="project-card" data-title="Bug Fixing Using Cursor AI" data-tags="python cursor-ai unittest tdd debugging testing">
+            <div class="project-card-header">
+              <span class="project-badge">Assignment 8</span>
+              <h3 class="project-title">Bug Fixing Using Cursor AI</h3>
+            </div>
+            <p class="project-description">
+              Diagnosed and resolved critical logic bugs in a student grading program following the Red-Fix-Green Test-Driven Development methodology. Corrected average calculations, passing boundary conditions, and grade ordering until all 9 unit tests passed successfully.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">unittest</span>
+              <span class="tag">Cursor AI</span>
+              <span class="tag">TDD</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sakshisharma-cse/bug-fixing-cursor-ai" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Repository</span> ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Interactive Quiz Application -->
+          <article class="project-card" data-title="Interactive Quiz Application" data-tags="javascript quiz html5 css3 web-apps lecture-10">
+            <div class="project-card-header">
+              <span class="project-badge">Lecture 10</span>
+              <h3 class="project-title">Interactive Quiz Application</h3>
+            </div>
+            <p class="project-description">
+              An engaging, client-side interactive quiz testing core knowledge in LLM token prediction, Git commit formatting, time complexity, and testing. Developed with dynamic JavaScript DOM generation, instant answer evaluation, and score persistence.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Quiz</span>
+              <span class="tag">HTML5/CSS3</span>
+              <span class="tag">Web Apps</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sakshisharma-cse/quiz" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Repository</span> ↗
+              </a>
+              <a href="../quiz/index.html" class="btn-card btn-card-primary" target="_blank" rel="noopener noreferrer">
+                <span>Live Quiz Demo</span> ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: Book Reading List Application -->
+          <article class="project-card" data-title="Book Reading List Application" data-tags="javascript book reading-list bolt-ai vercel lecture-11 web-apps">
+            <div class="project-card-header">
+              <span class="project-badge">Lecture 11</span>
+              <h3 class="project-title">Book Reading List Application</h3>
+            </div>
+            <p class="project-description">
+              A responsive book reading management web app developed using Bolt AI and deployed to Vercel. Features real-time status transitions (Want to Read, Reading, Finished), duplicate detection, 60-character title limit validation, and dynamic reading counters.
+            </p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Book</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">Bolt AI</span>
+              <span class="tag">Web Apps</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/sakshisharma-cse/reading-list-app" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Repository</span> ↗
+              </a>
+              <a href="https://reading-list-app-phi.vercel.app" class="btn-card btn-card-primary" target="_blank" rel="noopener noreferrer">
+                <span>Live App (Vercel)</span> ↗
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Empty search result fallback -->
+        <div id="noResultsMessage" class="no-results-message" style="display: none;">
+          <p>No projects match your search query. Try searching for "Python", "Quiz", or "Book".</p>
+        </div>
+      </section>
+
+      <!-- Contact Information Section -->
+      <section id="contact" aria-labelledby="contact-heading">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 id="contact-heading">Contact Information</h2>
+          <p class="section-desc">
+            Feel free to connect for data analytics collaborations, internship opportunities, or academic discussions.
+          </p>
+        </div>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <h3>Email</h3>
+            <p>Direct inquiries & collaborations</p>
+            <a href="mailto:sakshisharma.cse@gmail.com" class="contact-link">sakshisharma.cse@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">🐙</div>
+            <h3>GitHub</h3>
+            <p>Code repositories & open source</p>
+            <a href="https://github.com/sakshisharma-cse" class="contact-link" target="_blank" rel="noopener noreferrer">github.com/sakshisharma-cse</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">💼</div>
+            <h3>LinkedIn</h3>
+            <p>Professional network & updates</p>
+            <a href="https://www.linkedin.com/in/sakshi-sharma-cse" class="contact-link" target="_blank" rel="noopener noreferrer">linkedin.com/in/sakshi-sharma-cse</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">📍</div>
+            <h3>Location</h3>
+            <p>University & Residence</p>
+            <span class="contact-text">Jaipur, Rajasthan, India</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lecture 15 Chatbot Section -->
+      <section id="portfolio-chatbot" class="chatbot-section" aria-labelledby="chatbot-heading">
+        <div class="section-header">
+          <span class="section-tag">AI Integration (Lecture 15)</span>
+          <h2 id="chatbot-heading">Ask My Portfolio Chatbot</h2>
+          <p>Ask a question and receive an instant AI response grounded in Sakshi's skills, education, and five coursework projects.</p>
+        </div>
+
+        <!-- Quick Question Prompts -->
+        <div class="quick-prompts" aria-label="Suggested quick questions">
+          <span class="quick-prompts-label">Try asking:</span>
+          <button type="button" class="prompt-chip" data-prompt="Who are you?">Who are you?</button>
+          <button type="button" class="prompt-chip" data-prompt="What are your skills?">What are your skills?</button>
+          <button type="button" class="prompt-chip" data-prompt="What projects have you completed?">What projects have you completed?</button>
+          <button type="button" class="prompt-chip" data-prompt="Explain your Python programs.">Explain your Python programs</button>
+          <button type="button" class="prompt-chip" data-prompt="What was corrected in the buggy code project?">What was corrected in the buggy code project?</button>
+          <button type="button" class="prompt-chip" data-prompt="How does the reading list work?">How does the reading list work?</button>
+          <button type="button" class="prompt-chip" data-prompt="Where is your GitHub?">Where is your GitHub?</button>
+        </div>
+
+        <!-- Chat Conversation Messages Window -->
+        <div id="chatMessages" class="chat-messages" aria-live="polite" aria-label="Chat messages history">
+          <div class="message-wrapper bot">
+            <div class="message-avatar">🤖</div>
+            <p class="bot-message">Hello! I am Sakshi's portfolio AI assistant. Ask me anything about her skills, academic background at JECRC University, or five featured projects!</p>
+          </div>
+        </div>
+
+        <!-- Chat Input Form -->
+        <form id="chatForm" class="chat-form">
+          <input
+            id="chatInput"
+            type="text"
+            placeholder="Type your question about Sakshi's portfolio..."
+            autocomplete="off"
+            required
+          />
+          <button id="chatSend" type="submit">
+            <span>Send</span>
+          </button>
+        </form>
+
+        <!-- Status / Accessible Announcement -->
+        <p id="chatStatus" class="chat-status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>© <span id="year"></span> <strong>Sakshi Sharma</strong>. Created for Internal Assessment.</p>
+        <p class="footer-nav">
+          <a href="#home">Back to top ↑</a> •
+          <a href="mailto:sakshisharma.cse@gmail.com">Contact Sakshi</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scripts in exact order specified in Lecture 15 -->
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
